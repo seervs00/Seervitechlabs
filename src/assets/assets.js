@@ -13,6 +13,7 @@ import location_icon from "./location.png"
 import phone_icon from "./telephone.png"
 import sportsrep from "./sportsp.jpg"
 import arrow from './arrow.png'
+import figma_design_icon from './figma_logo.png'
 export const assets = {
     logo,
     softwareimg,
@@ -73,7 +74,13 @@ export const ServiceDummyData =[
     {
         "Title":"Mobile App Development",
         "Subtitle":"Whether it is a consumer-facing app or a powerful enterprise tool, we build mobile products that engage users and drive real results.",
-        "Icon": mobile_app_icon,    }
+        "Icon": mobile_app_icon,    
+    },
+    {
+        "Title": "Figma Design",
+        "Subtitle": "We craft intuitive, pixel-perfect UI/UX designs using Figma — streamlining collaboration and ensuring your product looks stunning and works seamlessly across devices.",
+        "Icon": figma_design_icon
+    }
 ]
 
 export const TestimonialDummyData =[
@@ -98,7 +105,7 @@ export const TestimonialDummyData =[
     "Text":"Being based in Europe, the latest Data Protection Regulation now requires us to carefully and proactively seek out trusted service providers who strictly adhere to these compliance standards.",
     "Image": "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200",
     "Name":"Jaya Soni",
-    "JobTitle":"developer",
+    "JobTitle":"Developer",
    },
    {
     "Text":"We are looking for people who share our vision! Most of our time used to be taken up by most of the alternate administrative work whereas now we can focus on building out to help our employees",

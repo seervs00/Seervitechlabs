@@ -126,7 +126,7 @@ return (
             <div className="flex items-center gap-3 md:hidden">
         <svg
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className={`h-6 w-8 cursor-pointer bg-gray-300 ${isScrolled ? "invert" : ""}`}
+          className={`h-6 w-8 cursor-pointer text-white text-3xl ${isScrolled ? "invert" : ""}`}
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
